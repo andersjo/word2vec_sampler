@@ -13,6 +13,11 @@ When initializing the Word2Vec class, you now need to specify a sampling functio
 Although version is not quite as fast as the original (it gives ~50% throughput) it still beats a pure Python implementation
 by a factor of at least 50.
 
+## Demo
+
+run `python word2vec.py data/text8data/questions-words.txt`
+
+
 ## Example: The original sampling strategy implemented as a function
 
 ``
