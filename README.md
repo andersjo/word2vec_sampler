@@ -20,7 +20,7 @@ run `python word2vec.py data/text8data/questions-words.txt`
 
 ## Example: The original sampling strategy implemented as a function
 
-``
+```python
 def sample_word2vec(sentence, window=5):
     pairs = []
     for i in range(len(sentence)):
@@ -41,4 +41,4 @@ def sample_word2vec(sentence, window=5):
             pairs.append((sentence[i], sentence[j]))
 
     return pairs
-``
+```
