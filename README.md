@@ -15,7 +15,7 @@ by a factor of at least 50.
 
 ## Demo
 
-run `python word2vec.py data/text8data/questions-words.txt`
+run `python word2vec.py data/text8-small data/questions-words.txt`
 
 
 ## Example: The original sampling strategy implemented as a function
